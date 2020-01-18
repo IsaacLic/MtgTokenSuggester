@@ -3,4 +3,11 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_card_list">CardList</string>
     <string name="title_activity_token_list">TokenList</string>
+    <string name="ability">Ability</string>
+    <string name="artifact">Artifact</string>
+    <string name="enchantment">Enchantment</string>
+    <string name="creature">Creature</string>
+    <string name="power">Power</string>
+    <string name="toughness">Toughness</string>
+    <string name="submit">Submit</string>
 </resources>

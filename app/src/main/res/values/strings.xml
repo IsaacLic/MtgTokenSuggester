@@ -10,4 +10,9 @@
     <string name="power">Power</string>
     <string name="toughness">Toughness</string>
     <string name="submit">Submit</string>
+    <string name="white">White</string>
+    <string name="blue">Blue</string>
+    <string name="black">Black</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
 </resources>

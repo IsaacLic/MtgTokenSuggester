@@ -82,19 +82,29 @@
         <TableRow android:id="@+id/colors" android:gravity="center">
 
             <CheckBox android:id="@+id/cb_white"
-                style="@style/rowItem" />
+                style="@style/rowItem"
+                android:textColor="@color/colorWhite"
+                android:text="@string/white"/>
 
             <CheckBox android:id="@+id/cb_blue"
-                style="@style/rowItem"/>
+                style="@style/rowItem"
+                android:textColor="@color/colorBlue"
+                android:text="@string/blue"/>
 
             <CheckBox android:id="@+id/cb_black"
-                style="@style/rowItem"/>
+                style="@style/rowItem"
+                android:textColor="@color/colorBlack"
+                android:text="@string/black"/>
 
             <CheckBox android:id="@+id/cb_red"
-                style="@style/rowItem"/>
+                style="@style/rowItem"
+                android:textColor="@color/colorRed"
+                android:text="@string/red"/>
 
             <CheckBox android:id="@+id/cb_green"
-                style="@style/rowItem"/>
+                style="@style/rowItem"
+                android:textColor="@color/colorGreen"
+                android:text="@string/green"/>
 
         </TableRow>
 

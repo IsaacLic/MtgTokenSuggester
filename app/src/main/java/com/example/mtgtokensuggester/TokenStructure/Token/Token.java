@@ -2,6 +2,8 @@ package com.example.mtgtokensuggester.TokenStructure.Token;
 
 import androidx.annotation.NonNull;
 
+import java.util.ArrayList;
+
 public class Token {
 
     public final Color[] colors;
@@ -11,8 +13,8 @@ public class Token {
     private final CreatureInfo creatureInfo;
     private final EnchantmentInfo enchantmentInfo;
 
-    public Token(Color[] colors, String ability, ArtifactInfo artifactInfo, CreatureInfo creatureInfo, EnchantmentInfo enchantmentInfo) {
-        this.colors = colors;
+    public Token(ArrayList<Color> colors, String ability, ArtifactInfo artifactInfo, CreatureInfo creatureInfo, EnchantmentInfo enchantmentInfo) {
+        this.colors = (Color[]) colors.toArray();
         this.ability = ability;
 
         this.artifactInfo = artifactInfo;

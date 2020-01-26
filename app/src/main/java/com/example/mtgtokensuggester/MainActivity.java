@@ -52,4 +52,10 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+    public void showAbout (MenuItem item)
+    {
+        Utils.showInfoDialog (MainActivity.this, R.string.about_dialog_title,
+                R.string.about_dialog_banner);
+    }
 }

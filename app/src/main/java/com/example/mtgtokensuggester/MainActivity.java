@@ -1,5 +1,6 @@
 package com.example.mtgtokensuggester;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -11,6 +12,9 @@ import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import static com.example.mtgtokensuggester.Utils.sREQUEST_CODE_SETTINGS;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -47,10 +51,16 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            return true;
+            showSettings();
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    private void showSettings() {
+        // Here, we open up our settings activity
+        Intent intent = new Intent (getApplicationContext (), SettingsActivity.class);
+        startActivityForResult (intent, sREQUEST_CODE_SETTINGS);
     }
 
     public void showAbout (MenuItem item)

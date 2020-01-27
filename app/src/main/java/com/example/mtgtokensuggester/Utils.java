@@ -17,6 +17,7 @@ import androidx.core.content.ContextCompat;
 
 public class Utils
 {
+    public final static int sREQUEST_CODE_SETTINGS = 100;
     // AlertDialog
     // -----------
 

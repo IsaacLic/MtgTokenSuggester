@@ -25,4 +25,16 @@
         ]]>
     </string>
 
+    <string name="numberOfTokensXKey">numberOfTokensX</string>
+    <string name="numberOfTokensXSummary">How many tokens to use for an X cost spell</string>
+    <string name="preferenceTitle">Token Preferences</string>
+    <string name="numberOfTokensXTitle">Number of Tokens X Spell</string>
+    <string name="numberOfTokensXDefaultValue">3</string>
+
+    <string name="numberOfTokensTriggerKey">numberOfTokensTrigger</string>
+    <string name="numberOfTokensTriggerSummary">How many tokens to use for a spell with a triggered ability</string>
+    <string name="numberOfTokensTriggerDefaultValue">5</string>
+    <string name="numberOfTokensTriggerTitle">Number of Tokens Triggered Ability</string>
+
+
 </resources>

@@ -35,6 +35,14 @@
     <string name="numberOfTokensTriggerSummary">How many tokens to use for a spell with a triggered ability</string>
     <string name="numberOfTokensTriggerDefaultValue">5</string>
     <string name="numberOfTokensTriggerTitle">Number of Tokens Triggered Ability</string>
+    <string name="tv_token_1_text">Token 1</string>
+    <string name="tv_token_2_text">Token 2</string>
+    <string name="tv_token_3_text">Token 3</string>
+    <string name="tv_tokens_text">Tokens</string>
+    <string name="action_add_tokens">Add Tokens</string>
+    <string name="action_token_list">Token List</string>
+    <string name="tv_main_title">Magic The Gathering: Token Suggester</string>
+    <string name="tv_main_placeholder_text">Placeholder for suggested tokens</string>
 
 
 </resources>

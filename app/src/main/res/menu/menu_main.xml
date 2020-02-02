@@ -13,4 +13,14 @@
         android:title="@string/action_about"
         support:showAsAction="never"
         android:onClick="showAbout"/>
+
+    <item
+        android:title="@string/action_add_tokens"
+        app:showAsAction="never"
+        android:onClick="openAddTokenActivity"/>
+
+    <item
+        android:title="@string/action_token_list"
+        app:showAsAction="never"
+        android:onClick="openTokenListActivity"/>
 </menu>

@@ -29,8 +29,7 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+               openAddTokenActivity();
             }
         });
     }
@@ -50,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if(id == R.id.action_settings) {
             showSettings();
         }
 
@@ -68,4 +67,22 @@ public class MainActivity extends AppCompatActivity {
         Utils.showInfoDialog (MainActivity.this, R.string.about_dialog_title,
                 R.string.about_dialog_banner);
     }
+
+    public void openAddTokenActivity(MenuItem item) {
+        Intent intent = new Intent(getApplicationContext(), TokenAddingActivity.class);
+        startActivity(intent);
+    }
+
+    public void openAddTokenActivity() {
+        Intent intent = new Intent(getApplicationContext(), TokenAddingActivity.class);
+        startActivity(intent);
+    }
+
+    public void openTokenListActivity(MenuItem item) {
+        Intent intent = new Intent(getApplicationContext(), TokenListActivity.class);
+        startActivity(intent);
+    }
+
+
 }
+
